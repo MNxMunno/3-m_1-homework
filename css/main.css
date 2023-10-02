@@ -24,7 +24,24 @@
 }
 
 .dark .hero {
-  background: linear-gradient(to right, #000000e0 50%, #fac422 50%);
+  background: linear-gradient(to right, #fff 50%, #fac422 50%);
+}
+
+.dark .hero h1 {
+  color: #000;
+}
+
+.dark .btn {
+  color: #000;
+}
+
+.dark .cloud {
+  background-color: #fff;
+}
+
+.dark .cloud_card h6,
+.cloud_card p {
+  color: #000;
 }
 
 .dark * {
@@ -47,8 +64,25 @@
   color: #57b8ff;
 }
 
-.dark .sponsors {
-  background: #57b8ff;
+.dark .sponsor_text h2 {
+  color: #fff;
+}
+
+.dark .articles {
+  background-color: aliceblue;
+}
+
+.dark .articles_text h6 {
+  color: #000;
+}
+
+.dark .articles_card h6 {
+  color: #000;
+}
+
+.dark .articles__card h6,
+.articles__card p {
+  color: #000;
 }
 
 header {
@@ -101,6 +135,12 @@ a {
   line-height: 30px; /* 166.667% */
   border: 1px solid #fff;
   padding: 16px 31px;
+  transition: 0.5s;
+}
+
+.contact_nav:hover {
+  border: 1px solid #fac422;
+  color: #fac422;
 }
 
 .right-nav {
@@ -460,4 +500,175 @@ h1 {
 
 .games3 img {
   padding: 257px 176px 10px;
+}
+
+/* ARTICLES SECTION */
+
+.articles {
+  background-color: #000;
+}
+
+.articles-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 75px;
+  padding-bottom: 12px;
+}
+
+.articles-text p {
+  color: #57b8ff;
+  font-family: Orbitron;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  text-transform: uppercase;
+}
+
+.articles_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.articles_text h6 {
+  color: #fff;
+  font-family: Orbitron;
+  font-size: 6.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 74px; /* 115.625% */
+  text-transform: capitalize;
+}
+
+.articles_cards {
+  padding-top: 64px;
+  padding-bottom: 88px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.articles_card img {
+  max-width: 648px;
+}
+
+.articles_card p {
+  color: #57b8ff;
+  font-family: Orbitron;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 100% */
+  margin-top: 54px;
+  margin-bottom: 28px;
+}
+
+.articles_card {
+  color: #fff;
+  font-family: Orbitron;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px; /* 127.778% */
+  text-transform: capitalize;
+}
+
+.articles_cont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.articles__card p {
+  color: #57b8ff;
+  font-family: Orbitron;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.articles__card h6 {
+  color: #fff;
+  font-family: Orbitron;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 141.667% */
+  text-transform: capitalize;
+}
+
+/* FOOTER */
+
+footer {
+  background-image: url(../images/com\ bacground.png);
+  background-size: cover;
+}
+
+footer h6 {
+  color: #141820;
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 7.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 82px; /* 113.889% */
+  padding-top: 126px;
+}
+
+footer img {
+  margin-top: 5px;
+  margin-left: 647px;
+}
+
+footer p {
+  margin-top: 51px;
+  color: #555;
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 135px;
+}
+
+#mail {
+  color: #555;
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+  padding: 21px 226px 21px 13px;
+  outline: none;
+}
+
+form button {
+  background: #57b8ff;
+  color: #fff;
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+  padding: 21px 7px 21px 8px;
+  cursor: pointer;
+  border: none;
 }
